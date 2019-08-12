@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/colorPrimary">
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="20dp">
+
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:src="@drawable/logocrepes"
+            android:layout_marginTop="10dp"/>
+
+    <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60sp"
+            android:text="REGISTRO"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textStyle="bold"
+            android:layout_marginTop="30dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correo Electrónico"
+            android:id="@+id/tvCorreo"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etCorreo"
+            android:layout_marginTop="0dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Contraseña"
+            android:id="@+id/tvContraseña"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etContraseña"
+            android:layout_marginTop="0dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Confirme su contraseña"
+            android:id="@+id/tvConfcontraseña"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/etConfcontraseña"
+            android:layout_marginTop="0dp"/>
+
+    <Button
+            android:layout_width="200sp"
+            android:layout_height="50dp"
+            android:text="Registrar"
+            android:id="@+id/bnRegistrar"
+            android:layout_marginTop="40dp"
+            android:layout_gravity="center"/>
+
+
+</LinearLayout>
+        </ScrollView>

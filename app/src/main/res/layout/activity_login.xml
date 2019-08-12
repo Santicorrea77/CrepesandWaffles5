@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/colorPrimary"
+        android:padding="10dp">
+
+    <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="150sp"
+            android:src="@drawable/logocandw"
+            android:layout_marginTop="30dp"/>
+
+    <TextView
+            android:layout_width = "match_parent"
+            android:layout_height = "30sp"
+            android:text = "Usuario"
+            android:id = "@+id/txUsuario"
+            android:textSize="22dp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30sp"
+            android:id="@+id/etUsuario"
+            android:layout_marginTop="15dp" />
+
+    <TextView
+            android:layout_width = "match_parent"
+            android:layout_height = "30sp"
+            android:text = "Contraseña"
+            android:id = "@+id/txContraseña"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:layout_marginTop="40dp"/>
+
+    <EditText
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:id="@+id/etConstraseña"
+            android:layout_marginTop="15dp" />
+
+    <Button
+            android:layout_width="200sp"
+            android:layout_height="50dp"
+            android:text="Inciar"
+            android:id="@+id/bnIniciar"
+            android:layout_marginTop="30dp"
+            android:layout_gravity="center"/>
+
+
+    <TextView
+            android:layout_width = "match_parent"
+            android:layout_height = "30sp"
+            android:text = "¿Aún no tienes cuenta? Crea una"
+            android:id = "@+id/txCreacuenta"
+            android:gravity = "center"
+            android:layout_marginTop="20dp"/>
+
+    <Button
+            android:layout_width="200dp"
+            android:layout_height="50dp"
+            android:text="Registrarse"
+            android:id="@+id/bnRegistro"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"/>
+
+
+</LinearLayout>
